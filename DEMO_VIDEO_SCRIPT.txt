@@ -1,0 +1,9 @@
+MECHPREDICT AI — DEMO VIDEO SCRIPT (60–90 seconds)
+
+Hello, we are Team CodeZ. This is MechPredict AI, our prototype for the FT-03 Predictive Maintenance for Industry challenge.
+
+The dashboard represents an industrial motor and displays five sample sensor inputs: temperature, vibration, motor speed, pressure, and operating hours. These values are simulated for this prototype.
+
+When I increase temperature or vibration, the condition assessment and demo risk indicator update. I can record a reading to add it to the session history, and use Reset to return the sensors to their default values.
+
+This version demonstrates the user workflow and a transparent threshold-based assessment. The next step would be connecting real sensor data and validating a predictive model using industrial datasets. Thank you.

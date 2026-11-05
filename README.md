@@ -1,29 +1,39 @@
 # MechPredict AI — Predictive Maintenance Prototype
 
-**Team:** CodeZ | **Track:** FT-03 — Predictive Maintenance for Industry
+**Team:** CodeZ
+**Track:** FT-03 — Predictive Maintenance for Industry
 
-## Demo features
-- Interactive simulated sensor inputs: temperature, vibration, motor speed, pressure, and operating hours.
-- Transparent threshold-based condition indicator and suggested maintenance notes.
-- Record readings in a browser-session history; reset inputs and clear history.
-- Responsive desktop/mobile layout.
+## Overview
 
-## Run
-No Python, packages, or server required. Open `index.html` in a modern browser.
+MechPredict AI is a front-end prototype that demonstrates how sensor readings can help monitor the condition of industrial machines and highlight possible maintenance needs.
 
-## Publish with GitHub Pages
-1. Upload `index.html`, `style.css`, and `script.js` to the root of your public repository.
-2. Open **Settings → Pages**.
-3. Choose **Deploy from a branch**, select `main` and `/(root)`, then save.
-4. Use the website URL provided by GitHub Pages.
+## Features
 
-## Demo video (60–90 seconds)
-1. Introduce MechPredict AI and the FT-03 challenge.
-2. Show the five sensor sliders; say the values are simulated.
-3. Increase temperature or vibration to show the assessment change.
-4. Click **Record reading** and show the history row.
-5. Click **Reset** and show the default values return.
-6. State that real sensor integration and model validation are future work.
+* Interactive simulated inputs for temperature, vibration, motor speed, pressure, and operating hours.
+* Threshold-based condition indicator with suggested maintenance notes.
+* Reading history for the current browser session.
+* Controls to record readings, reset inputs, and clear history.
+* Responsive layout for desktop and mobile screens.
 
-## Limitation
-This is a front-end prototype using simulated readings and simple threshold rules. The score is not a validated failure probability and must not be used for real industrial safety or maintenance decisions.
+## How It Works
+
+The prototype evaluates the entered sensor values using simple threshold rules and displays a condition assessment. All readings are simulated; the prototype is not connected to real industrial equipment.
+
+## Run Locally
+
+No Python, packages, or server are required. Open `index.html` in a modern web browser.
+
+## Demo
+
+The demo shows how changing simulated sensor values affects the condition assessment, how readings can be recorded in the history, and how the inputs can be reset.
+
+## Future Scope
+
+* Connect real industrial sensors and equipment.
+* Collect and analyze machine data.
+* Develop and validate a predictive model using real data.
+* Evaluate the system with industry-specific maintenance requirements.
+
+## Limitations
+
+This is a front-end prototype using simulated readings and simple threshold rules. Its score is not a validated failure probability and must not be used for real industrial safety or maintenance decisions.
